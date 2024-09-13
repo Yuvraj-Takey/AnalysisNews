@@ -1,0 +1,86 @@
+
+[ 2024-09-10 19:33:00,289 ] - DEBUG - root - main.py:17 - Initiated Preprocessing Module
+
+[ 2024-09-10 19:33:00,289 ] - DEBUG - root - processDataIngestion.py:11 - Document Ingestion class initialized
+
+[ 2024-09-10 19:33:04,734 ] - DEBUG - root - processDataIngestion.py:33 - Successfully loaded the input file to the memory
+
+[ 2024-09-10 19:33:04,734 ] - DEBUG - root - processEdit.py:10 - Process Edit Message class initialized
+
+[ 2024-09-10 19:33:04,734 ] - DEBUG - root - processJSON.py:25 - JSON Pre-Processing class initiated
+
+[ 2024-09-10 19:33:04,734 ] - DEBUG - root - utils.py:31 - [INFO] : Loading the configuration data
+
+[ 2024-09-10 19:33:04,744 ] - INFO - root - utils.py:37 - Config Yaml loaded succesfully.
+
+[ 2024-09-10 19:33:04,760 ] - DEBUG - root - processEdit.py:85 - Operation on-line extraction has initiated
+
+[ 2024-09-10 19:33:04,760 ] - DEBUG - root - processEdit.py:32 - Started operation on line level adjustment
+
+[ 2024-09-10 19:33:04,761 ] - DEBUG - root - processEdit.py:67 - Forwarding JSON object for futher pre-processing task
+
+[ 2024-09-10 19:33:04,761 ] - DEBUG - root - processJSON.py:401 - Dealing with missing columns and sheets
+
+[ 2024-09-10 19:33:04,769 ] - DEBUG - root - processJSON.py:55 - Started extraction of claim IDs from the input file
+
+[ 2024-09-10 19:33:04,770 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,772 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,778 ] - DEBUG - root - processJSON.py:323 - Working on Hippa Attribute
+
+[ 2024-09-10 19:33:04,782 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,784 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,796 ] - DEBUG - root - processJSON.py:269 - max date replacement task is started
+
+[ 2024-09-10 19:33:04,799 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,800 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,803 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,806 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,849 ] - DEBUG - root - processJSON.py:351 - Dealing with Raw data from COB
+
+[ 2024-09-10 19:33:04,850 ] - DEBUG - root - processJSON.py:269 - max date replacement task is started
+
+[ 2024-09-10 19:33:04,852 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,854 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,884 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,886 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,892 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,894 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,906 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,908 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,924 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-10 19:33:04,926 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-10 19:33:04,948 ] - DEBUG - root - processJSON.py:87 - Data persistance is started
+
+[ 2024-09-10 19:33:04,955 ] - INFO - root - processJSON.py:101 - Data JSON is stored at the location : C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\0_Experimentals\0_Expr_Test\1_EXCEL_JSON\1_Input_PreProcessing\artifacts\output\24B121111110_wm_invalidproviderselection.json
+
+[ 2024-09-10 19:33:04,955 ] - DEBUG - root - dataFiltration.py:11 - filterData class initialized
+
+[ 2024-09-10 19:33:04,963 ] - DEBUG - root - dataFiltration.py:235 - Got ['24B121111110_wm_invalidproviderselection.json'] for filtering
+
+[ 2024-09-10 19:33:04,968 ] - DEBUG - root - dataFiltration.py:247 - Started filtering 24B121111110_wm_invalidproviderselection
+
+[ 2024-09-10 19:33:04,968 ] - DEBUG - root - dataFiltration.py:180 - Started filtering and appying 2 filter/s
+
+[ 2024-09-10 19:33:04,974 ] - DEBUG - root - dataFiltration.py:137 - applyFilter initialized for input1.providerdetails.npi == 0
+
+[ 2024-09-10 19:33:04,974 ] - DEBUG - root - dataFiltration.py:137 - applyFilter initialized for input1.providerdetails.ein == 999999999
+
+[ 2024-09-10 19:33:04,979 ] - DEBUG - root - dataFiltration.py:191 - Applied 2 filter/s

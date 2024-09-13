@@ -1,0 +1,18 @@
+
+[ 2024-09-13 09:35:49,694 ] - DEBUG - root - main.py:17 - Initiated Preprocessing Module
+
+[ 2024-09-13 09:35:49,694 ] - DEBUG - root - processDataIngestion.py:11 - Document Ingestion class initialized
+
+[ 2024-09-13 09:35:59,229 ] - ERROR - root - main.py:42 - There seems to be a issue in Preprocessing - Traceback (most recent call last):
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\0_Experimentals\0_Expr_Test\1_EXCEL_JSON\Input_PreProcessing\main.py", line 21, in inputPreprocessUnit
+    jsonObject = loadJs(filepath)
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\0_Experimentals\0_Expr_Test\1_EXCEL_JSON\Input_PreProcessing\components\processDataIngestion.py", line 31, in __call__
+    json_object = json.loads(json_string)
+  File "C:\Program Files\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\Python39\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 137 (char 136)
+

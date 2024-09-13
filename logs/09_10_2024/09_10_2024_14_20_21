@@ -1,0 +1,20 @@
+
+[ 2024-09-10 14:20:27,793 ] - DEBUG - root - main.py:17 - Initiated Preprocessing Module
+
+[ 2024-09-10 14:20:27,800 ] - DEBUG - root - processDataIngestion.py:11 - Document Ingestion class initialized
+
+[ 2024-09-10 14:20:27,963 ] - ERROR - root - main.py:42 - There seems to be a issue in Preprocessing - Traceback (most recent call last):
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\0_Experimentals\0_Expr_Test\1_EXCEL_JSON\1_Input_PreProcessing\main.py", line 21, in inputPreprocessUnit
+    jsonObject = loadJs(filepath)
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\0_Experimentals\0_Expr_Test\1_EXCEL_JSON\1_Input_PreProcessing\components\processDataIngestion.py", line 20, in __call__
+    excelSheetsDict = pd.read_excel(filename, sheet_name=None)
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\base39\lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\base39\lib\site-packages\pandas\io\excel\_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\base39\lib\site-packages\pandas\io\excel\_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+  File "C:\Users\2332220\OneDrive - Cognizant\Desktop\GenAI_24\base39\lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\2332220\\OneDrive - Cognizant\\Desktop\\GenAI_24\\0_Experimentals\\0_Expr_Test\\1_EXCEL_JSON\\1_Input_PreProcessing\\artifacts\\input\\24B121111110.xlsx'
+
