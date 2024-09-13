@@ -1,6 +1,0 @@
-
-[ 2024-09-09 16:15:48,534 ] - DEBUG - root - main.py:14 - Initiated Preprocessing Module
-
-[ 2024-09-09 16:15:54,292 ] - DEBUG - root - utils.py:31 - [INFO] : Loading the configuration data
-
-[ 2024-09-09 16:15:54,307 ] - INFO - root - utils.py:37 - Config Yaml loaded succesfully.
