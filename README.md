@@ -1,1 +1,2 @@
-# AnalysisNews
+# NewsAnalysis
+NLP News Analysis

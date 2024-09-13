@@ -1,0 +1,126 @@
+
+[ 2024-09-09 19:21:02,697 ] - DEBUG - root - main.py:17 - Initiated Preprocessing Module
+
+[ 2024-09-09 19:21:02,702 ] - DEBUG - root - processDataIngestion.py:11 - Document Ingestion class initialized
+
+[ 2024-09-09 19:21:08,157 ] - DEBUG - root - processDataIngestion.py:33 - Successfully loaded the input file to the memory
+
+[ 2024-09-09 19:21:08,157 ] - DEBUG - root - processEdit.py:10 - Process Edit Message class initialized
+
+[ 2024-09-09 19:21:08,157 ] - DEBUG - root - processJSON.py:25 - JSON Pre-Processing class initiated
+
+[ 2024-09-09 19:21:08,157 ] - DEBUG - root - utils.py:31 - [INFO] : Loading the configuration data
+
+[ 2024-09-09 19:21:08,173 ] - INFO - root - utils.py:37 - Config Yaml loaded succesfully.
+
+[ 2024-09-09 19:21:08,189 ] - DEBUG - root - processEdit.py:85 - Operation on-line extraction has initiated
+
+[ 2024-09-09 19:21:08,189 ] - DEBUG - root - processEdit.py:32 - Started operation on line level adjustment
+
+[ 2024-09-09 19:21:08,189 ] - DEBUG - root - processEdit.py:67 - Forwarding JSON object for futher pre-processing task
+
+[ 2024-09-09 19:21:08,204 ] - DEBUG - root - processJSON.py:386 - Dealing with missing columns and sheets
+
+[ 2024-09-09 19:21:08,204 ] - DEBUG - root - processJSON.py:55 - Started extraction of claim IDs from the input file
+
+[ 2024-09-09 19:21:08,204 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,204 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,204 ] - DEBUG - root - processJSON.py:308 - Working on Hippa Attribute
+
+[ 2024-09-09 19:21:08,220 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,220 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,220 ] - DEBUG - root - processJSON.py:254 - max date replacement task is started
+
+[ 2024-09-09 19:21:08,236 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,236 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,236 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,236 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,267 ] - DEBUG - root - processJSON.py:336 - Dealing with Raw data from COB
+
+[ 2024-09-09 19:21:08,267 ] - DEBUG - root - processJSON.py:254 - max date replacement task is started
+
+[ 2024-09-09 19:21:08,283 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,283 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,299 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,299 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,299 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,299 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,314 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,314 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,331 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,331 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,347 ] - DEBUG - root - processJSON.py:87 - Data persistance is started
+
+[ 2024-09-09 19:21:08,448 ] - DEBUG - root - processEdit.py:32 - Started operation on line level adjustment
+
+[ 2024-09-09 19:21:08,457 ] - DEBUG - root - processEdit.py:67 - Forwarding JSON object for futher pre-processing task
+
+[ 2024-09-09 19:21:08,457 ] - DEBUG - root - processJSON.py:386 - Dealing with missing columns and sheets
+
+[ 2024-09-09 19:21:08,457 ] - DEBUG - root - processJSON.py:55 - Started extraction of claim IDs from the input file
+
+[ 2024-09-09 19:21:08,457 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,457 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,473 ] - DEBUG - root - processJSON.py:308 - Working on Hippa Attribute
+
+[ 2024-09-09 19:21:08,473 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,473 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,488 ] - DEBUG - root - processJSON.py:254 - max date replacement task is started
+
+[ 2024-09-09 19:21:08,488 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,488 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,488 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,488 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,535 ] - DEBUG - root - processJSON.py:336 - Dealing with Raw data from COB
+
+[ 2024-09-09 19:21:08,535 ] - DEBUG - root - processJSON.py:254 - max date replacement task is started
+
+[ 2024-09-09 19:21:08,535 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,535 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,551 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,551 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,567 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,567 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,567 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,567 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,583 ] - DEBUG - root - processJSON.py:205 - Data cleaning task is started
+
+[ 2024-09-09 19:21:08,583 ] - DEBUG - root - processJSON.py:117 - Data type conversion task is started
+
+[ 2024-09-09 19:21:08,614 ] - DEBUG - root - processJSON.py:87 - Data persistance is started
+
+[ 2024-09-09 19:21:08,648 ] - DEBUG - root - dataFiltration.py:10 - filterData class initialized
